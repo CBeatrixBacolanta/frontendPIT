@@ -5,14 +5,14 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: #2a2d35;
+  background-color: white;
   color: #ffffff;
 }
 
 /* Container */
 .app-container {
   text-align: center;
-  background: #333842;
+  background: #C73987;
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0px 0px 15px pink;
@@ -21,14 +21,14 @@ body {
 }
 
 /* Header */
-h1 {
+h2 {
   font-size: 24px;
-  text-shadow: 2px 2px 5px pink;
+  color: white;
 }
 
 /* Buttons */
 button {
-  background-color: #00bcd4;
+  background-color: rgb(193, 144, 152);
   border: none;
   padding: 10px 15px;
   margin: 5px;
@@ -40,7 +40,7 @@ button {
 }
 
 button:hover {
-  background-color: #0097a7;
+  background-color: rgb(170, 108, 116);
 }
 
 /* Input */
@@ -48,6 +48,7 @@ input[type="text"] {
   padding: 10px;
   border: none;
   border-radius: 10px;
+  border-color: pink;
   margin: 10px 5px;
   width: 60%;
 }
@@ -101,7 +102,7 @@ input[type="text"] {
 
 /* Filters */
 .filters button {
-  background-color: #00796b;
+  background-color: #06ad99;
 }
 
 .filters button:hover {
@@ -117,9 +118,8 @@ input[type="text"] {
   background: #252b36;
   box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.5);
 }
-
 .dark button {
-  background-color: #03a9f4;
+  background-color: #00796b;
 }
 
 .dark button:hover {
@@ -150,14 +150,14 @@ input[type="text"] {
 .task-input-container input {
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #4caf50;
+  border: 1px solid pink;
   width: 60%;
 }
 
 .priority-select {
   background-color: #2a2d35;
   color: white;
-  border: 1px solid #4caf50;
+  border: 1px solid pink;
   padding: 8px;
   border-radius: 5px;
   cursor: pointer;
