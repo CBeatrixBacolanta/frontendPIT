@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://CBeatrix.github.io/frontendPIT",
+  "homepage": "https://CBeatrixBacolanta.github.io/frontendPIT",
   "proxy": "https://backendpit-1.onrender.com",
   "scripts": {
     "dev": "vite",
