@@ -21,7 +21,7 @@ const App = () => {
         document.body.className = darkMode ? "dark" : "light";
     }, [darkMode]);
 
-    const baseURL = import.meta.env.VITE_API_BASE_URL || "https://td-backend-mh4l.onrender.com";
+    const baseURL = import.meta.env.VITE_API_BASE_URL || "https://backendpit-1.onrender.com";
 
     const addTask = async () => {
         if (task.trim() === "") return;
